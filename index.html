@@ -7,5 +7,17 @@
     <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
   </head>
-  <body></body>
+  <body>
+    <h1>My Library</h1>
+
+    <form id="new-book-form">
+      <input type="text" id="title" placeholder="Title" required />
+      <input type="text" id="author" placeholder="Author" required />
+      <input type="number" id="pages" placeholder="Pages" required />
+      <label> <input type="checkbox" id="read" /> Read </label>
+      <button type="submit">Add Book</button>
+    </form>
+
+    <div id="library"></div>
+  </body>
 </html>
